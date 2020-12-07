@@ -1,0 +1,292 @@
+/*
+Template Name: Osahan Fashion - Bootstrap 4 E-Commerce Theme
+Author: Askbootstrap
+Author URI: https://wrapbootstrap.com/user/gurdeep
+Version: 2.0
+*/
+
+@media (max-width: 576px) {
+	.section-header {
+		overflow: hidden;
+	}
+	.mega-menu-img {
+		display: none;
+	}
+	.navbar-top {
+		display: none;
+	}
+	.top-categories-search .categories-dropdown {
+		display: none;
+	}
+	.close-top-right {
+		border-radius: 30px;
+		right: 26px;
+		top: 14px;
+		width: 30px;
+	}
+	.widget .login-modal-right {
+		padding: 0;
+	}
+	.top-brands .col-lg-2.col-md-2.col-sm-2 {
+		margin: 0;
+		padding: 0;
+		width: 33.3%;
+	}
+	.footer-logo {
+		display: none;
+	}
+	.text-left-not-xs,
+	.text-center-not-xs,
+	.text-right-not-xs,
+	.text-justify-not-xs {
+		text-align: inherit;
+	}
+	.text-left-xs {
+		text-align: left;
+	}
+	.text-center-xs {
+		text-align: center;
+	}
+	.text-right-xs {
+		text-align: right;
+	}
+	.text-justify-xs {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-top div {
+		flex: auto !important;
+		margin: auto;
+		max-width: 100%;
+		text-align: center !important;
+	}
+	.navbar-top .list-inline,
+	.navbar-top li {
+		border: medium none;
+	}
+	.user-info-wrapper .user-cover {
+		background-position: left top;
+	}
+	.receipt-main {
+		padding: 20px;
+	}
+	.container {
+		max-width: 100%;
+		width: 100%;
+	}
+	.text-left-not-sm,
+	.text-center-not-sm,
+	.text-right-not-sm,
+	.text-justify-not-sm {
+		text-align: inherit;
+	}
+	.text-left-sm {
+		text-align: left;
+	}
+	.text-center-sm {
+		text-align: center;
+	}
+	.text-right-sm {
+		text-align: right;
+	}
+	.text-justify-sm {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-top li:first-child {
+		display: none;
+	}
+	.osahan-menu {
+		padding: 12px 18px;
+	}
+	.osahan-menu .navbar-nav .nav-link {
+		border-bottom: 1px solid #ebe7e7;
+		padding: 9px 0 !important;
+		position: relative;
+		text-align: left;
+	}
+	.osahan-menu .dropdown.mega-dropdown-main {
+		position: relative;
+	}
+	.sale-nav::after {
+		font-size: 9px;
+		font-weight: 700;
+		left: 40px;
+		line-height: 13px;
+		padding: 0 3px;
+		top: 2px;
+	}
+	.top-categories-search {
+		background: #ffffff none repeat scroll 0 0;
+		border-radius: 2px;
+		box-shadow: 0 0 4px rgba(30, 30, 30, 0.32);
+		margin: 4px 0 11px;
+		min-width: auto !important;
+		padding: 3px 3px 3px 0;
+	}
+	.main-nav-right {
+		margin: auto;
+		position: relative;
+		text-align: center;
+	}
+	.osahan-menu-top-5 .top-categories-search .form-control {
+		border-radius: 50px !important;
+	}
+	.pad-none-mobile {
+		padding: 0;
+	}
+	.osahan-menu-5 .navbar-nav .nav-link,
+	.osahan-menu-4 .navbar-nav .nav-link,
+	.osahan-menu-3 .navbar-nav .nav-link,
+	.osahan-menu-2 .navbar-nav .nav-link {
+		padding: 9px 18px !important;
+	}
+	.osahan-menu-top-2 .my-2.my-lg-0,
+	.osahan-menu-top-3 .my-2.my-lg-0,
+	.osahan-menu-top-4 .my-2.my-lg-0,
+	.osahan-menu-top-5 .my-2.my-lg-0 {
+		margin: 0 !important;
+	}
+	.navbar-toggler {
+		border-radius: 3px;
+		padding: 1px 4px;
+	}
+	.cart-value {
+		min-height: 17px;
+		padding: 1px 6px;
+		top: -6px;
+	}
+	.osahan-top-dropdown .dropdown-menu {
+		top: 44px;
+	}
+	.navbar-toggler-white {
+		background: #ffffff none repeat scroll 0 0 !important;
+		border-color: #ffffff !important;
+	}
+	.btn {
+		margin: 1px 0;
+	}
+	.user-info-wrapper .user-info {
+		padding: 87px 9px 6px;
+	}
+	.user-info-wrapper .user-info .user-avatar {
+		width: 55px;
+	}
+	.user-info-wrapper .user-info .user-data {
+		padding-left: 8px;
+		padding-top: 5px;
+	}
+	.user-info-wrapper .user-info .user-data h4 {
+		font-size: 17px;
+	}
+	.user-account-sidebar .list-group-item {
+		padding: 7px 8px;
+	}
+	.osahan-select-color a:last-child {
+		display: inline-block;
+		font-weight: bold;
+	}
+	.mx-auto {
+		margin-left: unset;
+		margin-right: unset;
+		min-width: 100%;
+	}
+	.round-tabs li {
+		margin: 0 2px;
+	}
+	.round-tabs li a {
+		min-width: auto !important;
+		padding: 1px 12px !important;
+		text-transform: none !important;
+	}
+	.pad-left-0 {
+		padding-left: 15px;
+	}
+	.login-modal-left {
+		display: none;
+	}
+	.product-item-list .product-item-image {
+		float: left;
+		padding: 13px;
+		width: 129px;
+	}
+	.product-discount {
+		display: none;
+	}
+	.product-item-list {
+		padding: 0 9px 13px 0;
+	}
+	.footer-Content .col-lg-3.col-md-3.col-sm-3 {
+		min-width: 50%;
+	}
+	.footer-widget .block-title {
+		margin: 26px 0;
+	}
+	.footer-Content {
+		padding-top: 6px;
+	}
+	.container {
+		max-width: 100%;
+		width: 100%;
+	}
+	.text-left-not-md,
+	.text-center-not-md,
+	.text-right-not-md,
+	.text-justify-not-md {
+		text-align: inherit;
+	}
+	.text-left-md {
+		text-align: left;
+	}
+	.text-center-md {
+		text-align: center;
+	}
+	.text-right-md {
+		text-align: right;
+	}
+	.text-justify-md {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 1200px) {
+	.top-categories-search {
+		min-width: 499px;
+	}
+	.container {
+		max-width: 100%;
+		width: 100%;
+	}
+	.osahan-menu .navbar-nav .nav-link {
+		padding: 22px 7px;
+	}
+	.osahan-menu-5 .navbar-nav .nav-link,
+	.osahan-menu-4 .navbar-nav .nav-link,
+	.osahan-menu-3 .navbar-nav .nav-link,
+	.osahan-menu-2 .navbar-nav .nav-link {
+		padding: 10px 12px;
+	}
+	.text-left-not-lg,
+	.text-center-not-lg,
+	.text-right-not-lg,
+	.text-justify-not-lg {
+		text-align: inherit;
+	}
+	.text-left-lg {
+		text-align: left;
+	}
+	.text-center-lg {
+		text-align: center;
+	}
+	.text-right-lg {
+		text-align: right;
+	}
+	.text-justify-lg {
+		text-align: justify;
+	}
+}
+
