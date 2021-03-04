@@ -7,8 +7,7 @@ function index_ajax_call(){
             $("#Ajax_Content_Display").html(result);
             $(".My_Orders,.My_Wishlist,.My_Cart,.My_Account,.Terms_Conditions").removeClass("active");
             $(".Home").addClass("active");
-            filter_data();
-            //setInterval(function(){  filter_data() },5000).fadeoIn(1000);
+            setInterval(function(){  filter_data() },5000).fadeoIn(1000);
         }
     });
 }

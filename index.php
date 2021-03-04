@@ -43,7 +43,7 @@ $site_row=mysqli_fetch_array($site_result);
 <style>
     nav .nav-item .nav-link{
         color:white;
-    }
+    } 
 </style>
 <body>
 <!--========================================================-->

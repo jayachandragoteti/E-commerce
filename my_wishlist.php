@@ -4,7 +4,7 @@
             <h5 class="heading-design-h5">My Wishlist <span class="badge badge-primary"></span></h5>
         </div>
         <div class="row Ajax_my_wishlist_data_responce">
-
+j
         </div>
     </div>
 </section>

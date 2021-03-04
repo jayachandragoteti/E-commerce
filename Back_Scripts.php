@@ -1,7 +1,6 @@
 <?php
 include 'DB_Connection.php';
 include 'components.php';
-
 //------------ Login --------------------
 if (isset($_POST['Email_Mobile']) && isset($_POST['Password'])) {
     if ($_POST['Email_Mobile'] !="" && $_POST['Password'] !="") {
@@ -238,7 +237,7 @@ if (isset($_POST['action'])) {
     $num_row = mysqli_num_rows($select_product_result);
         if ($num_row > 0) {
             while ($product_row=mysqli_fetch_array($select_product_result)) {
-            $output .=Product_Card($product_row['sno'],$product_row['name'],$product_row['cost'],$product_row['image']);
+            $output .=category_card();
         }
     }else{
         $output .="<h4 class='text-center text-danger'> <i class='fas fa-frown'></i>  No data found</h4>";
